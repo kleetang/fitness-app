@@ -4,9 +4,14 @@
 	margin-left: -20px;
 }
 
+.margin_lr_20 {margin:0 20px;}
+.margin_lr_30 {margin:0 30px;}
+
 body {
   cursor: url('https://ionicframework.com/img/finger.png'), auto;
 }
+
+.grey {color: #5a5a5a;}
 
 .fixed-outside{
   position: absolute;
