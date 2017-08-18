@@ -1,1 +1,5 @@
 /* Empty. Add your own CSS if you like */
+.bar .title.title-left {
+	text-align: center;
+	margin-left: -20px;
+}
