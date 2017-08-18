@@ -44,6 +44,16 @@ body {
   margin-top: 30px;
 }
 
+.pad_left {
+  padding-left: 20px !important;
+}
+
+.pad_right {
+  padding-right: 50px;
+  float: right;
+  margin-top: 30px;
+}
+
 .button-layout {
   margin:5px;
 }
