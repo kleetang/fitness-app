@@ -47,4 +47,46 @@ angular.module('starter.services', [])
       return null;
     }
   };
+})
+
+.factory('Classes', function() {
+
+  var classes = [{
+    id: 0,
+    name: 'Gym'
+  }, {
+    id: 1,
+    name: 'Pilates'
+  }, {
+    id: 2,
+    name: 'Spin'
+  }, {
+    id: 3,
+    name: 'Ping Pong'
+  }, {
+    id: 4,
+    name: 'Yogo'
+  }, {
+    id: 5,
+    name: 'HIIT'
+  }];
+
+  return {
+    all: function() {
+      return classes;
+    },
+    remove: function(woclass) {
+      classes.splice(classes.indexOf(woclass), 1);
+    },
+    get: function(classId) {
+      for (var i = 0; i < classes.length; i++) {
+        if (classes[i].id === parseInt(classId)) {
+          return classes[i];
+        }
+      }
+      return null;
+    }
+
+  }
+
 });

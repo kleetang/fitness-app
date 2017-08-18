@@ -1,25 +1,22 @@
 <ion-view view-title="Fitness">
   <ion-content class="padding">
     <div class="profile">
-      <img start class="userlogo" src="img/ck.png" height="80px;">
-      <h2>Charlie Kim</h2>
-      <img start class="userlogo" src="img/fitness.png" height="40px;">
-      <h4>Log Your Workout</h4>
-      <p class="grey margin_lr_30">
+      <img class="userlogo" src="img/ck.png" height="80px;">
+      <h3>Charlie Kim</h3>
+      <img class="fitnesslogo" src="img/fitness.png" height="40px;">
+      <h2>Log Your Workout</h2>
+      <p class="grey margin_lr_30 margin_b_30">
         Welcome back Charlie. Team Can't Stop, Won't Stop are <b>4 workouts</b> away from <b>100% conversion</b>.
       </p>
 
-      <button class="button" ion-button>Default</button>
-    <button ion-button>Default</button>
-    <button ion-button>Default</button>
-    <button ion-button>Default</button>
-    <button ion-button>Default</button>
-    <button ion-button>Default</button>
-    <button ion-button>Default</button>
-    <button ion-button>Default</button>
+      <ion-list class="margin_lr_30">
+        <button ng-repeat="class in classes" class="button button-balanced button-layout" ng-click="addFromList()">{{class.name}}</button>
+      </ion-list>
     </div>
-
-    
-
   </ion-content>
 </ion-view>
+
+<script id="popup.html" type="text/ng-template">
+  <ion-icon class="icon ion-checkmark-circled size-80 success-icon"></ion-icon>
+  <META http-equiv="refresh" content="0.5;URL=#/tab/myteam">
+</script>
