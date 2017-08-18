@@ -68,6 +68,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         }
       }
     })
+
     .state('tab.chat-detail', {
       url: '/chats/:chatId',
       views: {
@@ -87,6 +88,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     }
   })
+
+  .state('tab.signin', {
+      url: '/signin',
+      views: {
+        'tab-signin': {
+          templateUrl: 'templates/tab-signin.html',
+          controller: 'ChatsCtrl'
+        }
+      }
+    });
 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/dash');
