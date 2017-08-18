@@ -1,5 +1,16 @@
 angular.module('starter.controllers', [])
 
+.controller('SigninCtrl', function($scope, Classes, $ionicPopup) {
+  $scope.classes = Classes.all();
+
+  $scope.addFromList = function() {
+    $ionicPopup.show({
+      templateUrl: 'popup.html',
+      scope: $scope
+    });
+  };
+})
+
 .controller('DashCtrl', function($scope) {})
 
 .controller('MyteamCtrl', function($scope) {})
