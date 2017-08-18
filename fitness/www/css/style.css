@@ -33,3 +33,12 @@ body {
   text-align: center;
   margin-top: 10px;
 }
+
+.pad_left {
+  padding-left: 20px !important;
+}
+
+.pad_right {
+  padding-right: 50px;
+  float: right;
+}
