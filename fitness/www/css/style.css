@@ -28,3 +28,8 @@ body {
   height: 50px !important;
   border-radius: 50% !important;
 }
+
+.profile {
+  text-align: center;
+  margin-top: 10px;
+}
