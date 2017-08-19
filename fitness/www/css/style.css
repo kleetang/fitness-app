@@ -10,7 +10,11 @@
 .margin_b_20 {margin-bottom: 20px;}
 .margin_b_30 {margin-bottom: 30px;}
 
+.margin_t_30 {margin-top: 30px;}
+
 .size-80 {font-size: 80px;}
+
+.font-25 {font-size: 25px;}
 
 body {
   cursor: url('https://ionicframework.com/img/finger.png'), auto;
@@ -72,4 +76,58 @@ body {
 
 .success-icon {
   color: #fff;
+}
+.team-content{
+  text-align: center;
+}
+
+.pad_right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+.workout {
+  font-size: 50px;
+}
+.team-lead {
+  margin-left: 10px;
+}
+.workout-content {
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.workout-conversion {
+  float: right;
+  margin-top: 30px;
+  margin-right: 50px;
+}
+ion-item .userlogo {
+  margin-top: -12px;
+}
+.list {
+  margin-top: 20px;
+}
+.item {
+  padding: 25px;
+  /*border: none;*/
+}
+.icon-fitcheck {
+  color: green;
+  position: fixed;
+}
+.icon-fitcheck {
+    color: green;
+    position: fixed;
+    left: 85px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.ion-thumbsup {
+  color: green;
+}
+.fitnesslogo {
+  color: yellow;
 }
