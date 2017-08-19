@@ -1,14 +1,30 @@
 <ion-view view-title="My Team">
-  <ion-content class="pad_left" style="background: beige;">
-  	<h2 class="pad_left" style="font-family: muli;padding-top:10px;">Can't Stop, Won't Stop</h2><br/>
+  <ion-content class="team-content">
+    <h3 class="pad_left margin_b_30" style="font-family: muli;padding-top:10px;">Can’t Stop, Won’t Stop</h3>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-md-3 class="workout-content"><span class="workout">30</span><br><span >workouts</span></ion-col>
+        <ion-col col-md-3 class="team-lead">
+          <img class="userlogo" src="img/cantstop.png" height="80px;">
+        </ion-col>
+        <ion-col col-md-3 class="workout-conversion">
+          <ion-row class="workout">71%</ion-row><br> Conversion
+        </ion-col>
+      </ion-row>
+    </ion-grid>
     <ion-list style="font-family:Montserrat;font-size:16px;">
-    	4	Charlie Kim<i class="icon ion-thumbsup pad_right"></i><br/><br/>
-    	4	Chenxi Su (C)<i class="icon ion-thumbsup pad_right"></i><br/><br/>
-    	3	Emma Hsieh<i class="icon ion-thumbsup pad_right"></i><br/><br/>
-    	3	Nicole Depaola<i class="icon ion-thumbsup pad_right"></i><br/><br/>
-    	1	Sophia Boubal<br/><br/>
-    	1	Angela Cavallaro<br/><br/>
-    	1	Jasmin Lau
+      <ion-item>
+        <img class="userlogo float-left margin_lr_30 font-25" src="img/ck.png" height="40px;"><i class="icon ion-checkmark-circled icon-fitcheck"></i>
+        <span class="float-left">4</span> <span class="team-member">Charlie Kim</span><i class="icon ion-thumbsup pad_right margin_lr_30 font-25"></i>
+      </ion-item>
+      <ion-item>
+        <img class="userlogo float-left margin_lr_30 font-25" src="img/cantstop.png" height="40px;"><i class="icon ion-checkmark-circled icon-fitcheck"></i><span class="float-left">4</span> Chenxi Su (C)<i class="icon ion-thumbsup pad_right margin_lr_30 font-25"></i></ion-item>
+      <ion-item><img class="userlogo float-left margin_lr_30 font-25" src="img/ionic.png" height="40px;"><i class="icon ion-checkmark-circled icon-fitcheck"></i><span class="float-left">3</span> Emma Hsieh</span><i class="icon ion-thumbsup pad_right margin_lr_30 font-25"></i></ion-item>
+      <ion-item><img class="userlogo float-left margin_lr_30 font-25" src="img/ionic.png" height="40px;"><i class="icon ion-checkmark-circled icon-fitcheck"></i><span class="float-left">3</span> Nicole Depaola</span><i class="icon ion-thumbsup pad_right margin_lr_30 font-25"></i></ion-item>
+      <ion-item><img class="userlogo float-left margin_lr_30 font-25" src="img/ionic.png" height="40px;"><span class="float-left">1</span> Sophia Boubal</span><img class="fitnesslogo pad_right margin_lr_30" src="img/fitness.png" height="25px;"></ion-item>
+      <ion-item><img class="userlogo float-left margin_lr_30 font-25" src="img/ionic.png" height="40px;"><span class="float-left">1</span> Angela Cavallaro</span><img class="fitnesslogo pad_right margin_lr_30" src="img/fitness.png" height="25px;"></ion-item>
+      <ion-item><img class="userlogo float-left margin_lr_30 font-25" src="img/ionic.png" height="40px;"><span class="float-left">1</span> Jasmin Lau</span><img class="fitnesslogo pad_right margin_lr_30" src="img/fitness.png" height="25px;"></ion-item>
     </ion-list>
   </ion-content>
 </ion-view>
+
